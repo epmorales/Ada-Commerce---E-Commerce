@@ -72,3 +72,45 @@ O sistema é implementado em **Java** e permite gerenciar clientes, produtos e p
 🗂️ Estruturas de dados em memória (Map, List)
 
 🧩 Princípios de abstração, encapsulamento e interfaces
+
+🔑 Conceitos Utilizados
+Programação Orientada a Objetos (POO)
+
+Abstração → uso de interfaces (Notificacao, Repositorio) para definir contratos.
+
+Encapsulamento → atributos privados com getters/setters em Cliente, Produto, Pedido.
+
+Herança / Polimorfismo → EmailNotificacao implementa Notificacao, permitindo trocar o tipo de notificação sem alterar o cliente.
+
+Enumerações (Enum)
+
+StatusPedido define estados possíveis de um pedido (ABERTO, AGUARDANDO_PAGAMENTO, PAGO, FINALIZADO).
+
+Coleções Java
+
+Uso de Map para simular banco de dados em memória.
+
+Uso de List para armazenar itens de pedido.
+
+Tratamento de Exceções
+
+Regras de negócio garantidas com IllegalStateException e IllegalArgumentException.
+
+try/catch no Main para capturar e exibir erros sem travar o sistema.
+
+Uso de UUID
+
+Identificação única para Cliente, Produto e Pedido, garantindo integridade dos dados.
+
+Princípios de Design
+
+Separação de responsabilidades (SoC): pacotes distintos para modelagem, repositório e notificação.
+
+Programar para interface, não para implementação: dependência de Repositorio<T> e Notificacao, em vez de classes concretas.
+
+Interface de Console Estilizada
+
+Uso de cores com códigos ANSI.
+
+Menu centralizado e com bordas para melhor usabilidade.
+
