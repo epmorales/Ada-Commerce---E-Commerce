@@ -37,15 +37,6 @@ O sistema é todo implementado em **Java** e permite gerenciar clientes, produto
 
 ---
 
-## 🚀 Como Executar
-
-1. Clone este repositório:  
-   ```bash
-   git clone https://github.com/seu-usuario/ada-ecommerce.git
-   cd ada-ecommerce
-
----
-
 🛠️ Tecnologias Utilizadas
 
 Java 17+
