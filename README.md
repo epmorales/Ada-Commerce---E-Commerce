@@ -37,34 +37,6 @@ O sistema é implementado em **Java** e permite gerenciar clientes, produtos e p
 
 ---
 
-## 🎨 Menu Interativo
-
-```text
-------------------------------------------
-|             Ada E-Commerce              |
-|                                         |
-|               CLIENTES                  |
-| 1 - Cadastrar cliente                   |
-| 2 - Listar clientes                     |
-| 3 - Atualizar cliente                   |
-|                                         |
-|               PRODUTOS                  |
-| 4 - Cadastrar produto                   |
-| 5 - Listar produtos                     |
-| 6 - Atualizar produto                   |
-|                                         |
-|                PEDIDOS                  |
-| 7 - Criar pedido                        |
-| 8 - Adicionar item ao pedido            |
-| 9 - Alterar quantidade de item          |
-| 10 - Remover item do pedido             |
-| 11 - Finalizar pedido                   |
-| 12 - Pagar pedido                       |
-| 13 - Entregar pedido                    |
-|                                         |
-| 0 - Sair                                |
-------------------------------------------
-
 🛠️ Tecnologias Utilizadas
 ☕ Java 17+
 
